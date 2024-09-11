@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* リセット */
+html,body,header,footer,main,section,
+h1,h2,h3,h4,ul,li,p,dl,dt,dd,button {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #505050;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "palt"; /*メトリクス*/
+    font-size: 16px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s; /* 0.3秒かけて*/
+}
+a:hover {
+    opacity: 0.7;
+}
+ul {
+    list-style: none;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}

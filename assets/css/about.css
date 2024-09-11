@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* about */
+.section-about {
+  background-color: rgba(193,212,196,0.2);
+  padding: 80px 0 120px;
+}
+.section-about_h2 {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.profile-container {
+  display: flex;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.profile_photo {
+  width: 500px;
+  flex: 2.5;
+}
+.profile_photo img {
+  width: 100%;
+}
+.profile-text {
+  flex: 7.5;
+  margin-left: 50px;
+}
+.profile-text_name1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.profile-text_name2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #e99a96;
+  margin-bottom: 30px;
+}
+.profile-text_sentence {
+  line-height: 1.75;
+}
+@media screen and (max-width: 1000px) {
+  .profile-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+  }
+  .profile_photo {
+    max-width: 250px;
+    flex: none;
+    margin: 0 auto;
+  }
+  .profile-text {
+    flex: none;
+    margin: 40px auto 0;
+  }
+}
+
+/* service */
+.section-service {
+  padding: 60px 20px 120px;
+  margin: 0 auto;
+}
+.skill {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  gap: 50px;
+  margin: 0 auto 60px;
+}
+.skill_list {
+  text-align: center;
+  min-width: 275px;
+}
+.skill_title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.skill_subtitle {
+  color: #e99a96;
+  margin-bottom: 24px;
+}
+.skill-img {
+  max-width: 230px;
+  margin-bottom: 24px;
+}
+.skill-text {
+  max-width: 445px;
+  text-align: left;
+  margin-bottom: 24px;
+  line-height: 1.75;
+}
+.skill-tool {
+  max-width: 445px;
+  font-size: 14px;
+  text-align: left;
+}
+.skill-tool_heaading {
+  color: #e99a96;
+  position: relative;
+  border-bottom: dotted 2px #d99a96;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.skill_explanation {
+  max-width: 1000px;
+  background: url('../images/about/service.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.skill_explanation p {
+  line-height: 1.75;
+  padding: 25px 100px;
+}
+@media screen and (max-width: 1000px) {
+  .skill_explanation {
+    background: url('../images/about/service_tb.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+  }
+  .skill_explanation p {
+    margin: 0 auto;
+    padding: 50px;
+  }
+} 
+@media screen and (max-width: 767px) {
+  .skill {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skill_explanation {
+    background: url('../images/about/service_sp.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+}
+
+/* hobbies */
+.section-hobbies {
+  background-color: rgba(193,212,196,0.2);
+  padding: 60px 0 120px;
+}
+.section-hobbies_hobby {
+  max-width: 1040px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.section-hobbies_hobby li {
+  width: 300px;
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.section-hobbies_pictuire {
+  width: 60px;
+  position: absolute;
+  top: -30px;
+  left: -10px;
+}
+.section-hobbies_pictuire_3 {
+  width: 70px;
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+.section-hobbies_pictuire img {
+  width: 100%;
+}
+.section-hobbies_hobby h3 {
+  font-size: 18px;
+  position: relative;
+  border-bottom: dotted 2px #d99a96;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.section-hobbies_hobby p {
+  text-align: left;
+  line-height: 1.75;
+}
+.section-hobbies_number {
+  color: #e99a96;
+  font-size: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  right: 10px;
+}

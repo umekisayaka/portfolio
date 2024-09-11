@@ -1,0 +1,52 @@
+@charset "utf-8";
+.section-contact {
+  padding: 80px 20px 0;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+.thanks {
+  background-color: rgba(214,198,193,0.2);
+  padding: 40px 20px 80px;
+  margin-bottom: 60px;
+}
+.thanks h2 {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.thanks-container {
+  background-color: #ffffff;
+  margin: 0 auto 40px;
+  max-width: 800px;
+  border-radius: 100px;
+  padding: 60px 0;
+}
+.thanks-container p {
+  text-align: center;
+  line-height: 1.75;
+  font-weight: 400;
+  padding: 0 10px;
+}
+.button {
+  width: 245px;
+  height: 52px;
+  border-radius: 100px;
+  background-color: #d99a96;
+  text-align: center;
+  margin: 0 auto;
+}
+.button p {
+  color: #ffffff;
+  padding-top: 18px;
+}
+@media screen and (max-width: 767px) {
+  .thanks h2 {
+    font-size: 45px;
+  }
+  .thanks-container p {
+    font-size: 14px;
+  }
+}

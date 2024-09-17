@@ -56,6 +56,9 @@
     flex: none;
     margin: 40px auto 0;
   }
+  .profile-text_name1,.profile-text_name2 {
+    text-align: center;
+  }
 }
 
 /* service */

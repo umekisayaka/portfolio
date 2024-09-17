@@ -27,13 +27,16 @@ main {
 .categoly_list li {
   font-size: 12px;
   text-align: center;
-  width: 65px;
-  height: 22px;
+  width: 75px;
+  height: 30px;
   border-radius: 100px;
   background-color: #ebd5d3;
-  padding-top: 3px;
+  padding-top: 7px;
   margin-right: 10px;
   cursor: pointer;
+}
+.categoly_list li:last-child {
+  margin-right: 0;
 }
 .categoly_list li.active {
   background-color: #d99a96;
@@ -63,6 +66,9 @@ main {
   }
   .categoly_list {
     margin: 0 auto;
+  }
+  .categoly_list li {
+    margin-right: 6px;
   }
   .section-works_list {
     display: flex;

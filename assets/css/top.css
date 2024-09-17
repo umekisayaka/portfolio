@@ -178,7 +178,7 @@
   line-height: 1.3;
 }
 .scroll {
-  padding-top: 60px;
+  padding-top: 55px;
   position: relative;
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -191,13 +191,13 @@
   border-bottom: 1px solid #505050;
   border-left: 1px solid #505050;
   content: "";
-  height: 5px;
+  height: 8px;
   left: 0;
   margin: auto;
   position: absolute;
   right: 0;
   top: 70px;
-  width: 5px;
+  width: 8px;
 }
 @keyframes scroll {
   0% {
